@@ -8,6 +8,16 @@ body {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 h2 {
@@ -34,7 +44,19 @@ a, button {
     font-style: normal;
 }
 
+img {
+    display: block;
+}
+
 /* #region Navigation */
+
+.container {
+    max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0  auto;
+}
+
 .page-header {
 
 }
