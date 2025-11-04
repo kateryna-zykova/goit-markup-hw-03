@@ -7,7 +7,7 @@
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
@@ -18,27 +18,21 @@
     <header class="page-header">
         <div class="container header-container">
             <nav class="header-nav">
-                <div class="container-nav">
-                    <a class="main-logo" href="./index.html">Web<span class="main-logo-part">Studio</span></a>
-                    <ul class="nav-list">
-                        <div class="container-nav-list">
-                            <li class="nav-list-item"><a class="nav-list-link" href="./index.html">Studio</a></li>
-                            <li class="nav-list-item"><a class="nav-list-link" href="">Portfolio</a></li>
-                            <li class="nav-list-item"><a class="nav-list-link" href="">Contacts</a></li>
-                        </div>
-                    </ul>
-                </div>
+                <a class="main-logo" href="./index.html">Web<span class="main-logo-part">Studio</span></a>
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a class="nav-list-link" href="./index.html">Studio</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="">Portfolio</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="">Contacts</a></li>
+                </ul>
             </nav>
             <address class="header-contact">
                 <ul class="contact-list">
-                    <div class="container-contact-list">
-                        <li class="contact-list-item">
-                            <a class="contact-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        </li>
-                        <li class="contact-list-item">
-                            <a class="contact-list-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                        </li>
-                    </div>
+                    <li class="contact-list-item">
+                        <a class="contact-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a class="contact-list-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
                 </ul>
             </address>
         </div>
@@ -56,7 +50,7 @@
 
         <!-- #region Features -->
         <section class="section features">
-            <div class="container fearures-container">
+            <div class="container features-container">
                 <h2 class="features-title visually-hidden">Features</h2>
                 <ul class="features-list">
                     <li class="features-list-item">
@@ -126,43 +120,45 @@
         <!-- #region Portfolio -->
         <section class="section section-portfolio">
             <div class="container portfolio-container">
-                <h2 class="section-title">Our Portfolio</h2>
-                <ul class="section-list">
-                    <li class="section-list-item">
-                        <img class="section-list-img" src="./images/banking_app.jpg" alt="Banking App" width="360"
+                <h2 class="portfolio-title">Our Portfolio</h2>
+                <ul class="portfolio-list">
+                    <li class="portfolio-list-item">
+                        <img class="portfolio-list-img" src="./images/banking_app.jpg" alt="Banking App" width="360"
                             height="300">
-                        <h3 class="section-list-title">Banking App</h3>
-                        <p class="section-list-text">App</p>
+                        <div class="container-portfolio-item">
+                            <h3 class="portfolio-list-title">Banking App</h3>
+                            <p class="portfolio-list-text">App</p>
+                        </div>
                     </li>
-                    <li class="section-list-item">
-                        <img class="section-list-img" src="./images/cashless_payment.jpg" alt="Cashless Payment"
+                    <li class="portfolio-list-item">
+                        <img class="portfolio-list-img" src="./images/cashless_payment.jpg" alt="Cashless Payment"
                             width="360" height="300">
-                        <h3 class="section-list-title">Cashless Payment</h3>
-                        <p class="section-list-text">Marketing</p>
+                        <h3 class="portfolio-list-title">Cashless Payment</h3>
+                        <p class="portfolio-list-text">Marketing</p>
                     </li>
-                    <li class="section-list-item">
-                        <img class="section-list-img" src="./images/meditation_app.jpg" alt="Meditaion App" width="360"
-                            height="300">
-                        <h3 class="section-list-title">Meditation App</h3>
-                        <p class="section-list-text">App</p>
-                    </li>
-                    <li class="section-list-item">
-                        <img class="section-list-img" src="./images/taxi-service.jpg" alt="Taxi Service" width="360"
-                            height="300">
-                        <h3 class="section-list-title">Taxi Service</h3>
-                        <p class="section-list-text">Marketing</p>
-                    </li>
-                    <li class="section-list-item">
-                        <img class="section-list-img" src="./images/screen_illustrations.jpg" alt="Screen Illustrations"
+                    <li class="portfolio-list-item">
+                        <img class="portfolio-list-img" src="./images/meditation_app.jpg" alt="Meditaion App"
                             width="360" height="300">
-                        <h3 class="section-list-title">Screen Illustrations</h3>
-                        <p class="section-list-text">Design</p>
+                        <h3 class="portfolio-list-title">Meditation App</h3>
+                        <p class="portfolio-list-text">App</p>
                     </li>
-                    <li class="section-list-item">
-                        <img class="section-list-img" src="./images/online_courses.jpg" alt="Online Courses" width="360"
+                    <li class="portfolio-list-item">
+                        <img class="portfolio-list-img" src="./images/taxi-service.jpg" alt="Taxi Service" width="360"
                             height="300">
-                        <h3 class="section-list-title">Online Courses</h3>
-                        <p class="section-list-text">Marketing</p>
+                        <h3 class="portfolio-list-title">Taxi Service</h3>
+                        <p class="portfolio-list-text">Marketing</p>
+                    </li>
+                    <li class="portfolio-list-item">
+                        <img class="portfolio-list-img" src="./images/screen_illustrations.jpg"
+                            alt="Screen Illustrations" width="360" height="300">
+                        <h3 class="portfolio-list-title">Screen Illustrations</h3>
+                        <p class="portfolio-list-text">Design</p>
+                    </li>
+                    <li class="portfolio-list-item">
+                        <img class="portfolio-list-img" src="./images/online_courses.jpg" alt="Online Courses"
+                            width="360" height="300">
+                        <h3 class="portfolio-list-title">Online Courses</h3>
+                        <p class="portfolio-list-text">Marketing</p>
                     </li>
                 </ul>
             </div>
